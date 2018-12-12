@@ -39,7 +39,8 @@ h1 {
 
 h2 {
   margin: 25px 0;
-  font-size: 3.5em;
+  text-align: center;
+  font-size:64px;
   font-weight: 200;
   font-family: Montserrat;
 }
@@ -255,6 +256,7 @@ button {
 .header__title {
   font-size: 5.4em;
   margin: 0;
+  
 }
 
 .header__subtitle {
@@ -262,12 +264,6 @@ button {
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
-}
-.titre__important {
-  margin : o;
-  font-size: 64px;
-  font-weight: 200;
-  font-family: 'Montserrat';
 }
 
 .header__nav {
@@ -308,12 +304,16 @@ text-align: center;
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
 }
 
 .honey-pot {
-  display: inline-block;
   margin: 0 30px 35px 30px;
   text-align: center;
+  width: 370px;
+  height: 360px;
 }
 
 .honey-pot__link {
@@ -472,12 +472,18 @@ text-align: center;
   font-size: 5.6em;
   line-height: 1.4;
   font-weight: 500;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #1a1a1a;
 }
 
 .page-single__subtitle {
   margin: 0;
   font-size: 3.2em;
   font-weight: 200;
+  text-align: left;
+  font-family:'Montserrat';
 }
 
 
@@ -493,5 +499,5 @@ text-align: center;
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
 }
