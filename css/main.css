@@ -25,6 +25,7 @@ li {
 
 p {
   margin: 15px 0;
+  text-align: justify;
 }
 
 b, strong, optgroup {
@@ -268,7 +269,7 @@ button {
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
-text-align: center;
+  text-align: center;
 }
 
 .nav-main__item {
@@ -305,15 +306,12 @@ text-align: center;
 .honey-pot-list {
   text-align: center;
   display: flex;
-  justify-content: center;
-  margin-left: 120px;
+  justify-content: space-around;
 }
 
 .honey-pot {
   margin: 0 30px 35px 30px;
   text-align: center;
-  width: 370px;
-  height: 360px;
 }
 
 .honey-pot__link {
@@ -447,6 +445,8 @@ text-align: center;
 
 .news-list__news {
   grid-column: span 1;
+  align-items: first;
+  min-height: 30px;
 }
 
 /**
