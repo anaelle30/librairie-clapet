@@ -265,6 +265,7 @@ button {
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
+  text-align: center;
 }
 
 .header__nav {
@@ -385,7 +386,8 @@ button {
 
 .news__image {
   display: block;
-  width: 100%;
+  width: 372px;
+  height: 232px;
 }
 
 .news__date {
@@ -443,10 +445,13 @@ button {
   grid-column: span 3;  
 }
 
-.news-list__news {
+.news-list__news {  
   grid-column: span 1;
-  align-items: first;
   min-height: 30px;
+}
+
+.news__link {
+  display: flex;
 }
 
 /**
