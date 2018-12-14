@@ -601,3 +601,59 @@ font-size: 19px;
   margin-right: 150px;
   justify-content: center;  
 }
+
+.colonne-actualite{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page-single__title-actualite{
+  margin-left: 50px;
+  margin-bottom: 0px;
+  font-size: 56px;
+  line-height: 1.4;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.colonne-image-actualite{
+  margin-left: 50px;
+  min-width: 280px;
+  margin-right: 40px;
+}
+
+.colonne-texte-actualite{
+  margin-left: 40px;
+  margin-right: 20px;
+  text-align: justify;
+  justify-content: left; 
+  min-width: 600px;
+  margin-right: 120px;
+  margin-bottom: 50px;
+}
+
+.A l-occasion-de{
+  margin-bottom: 50px;
+}
+
+.La BD{
+  margin-top: 50px;
+  font-family: Montserrat;
+  font-weight: 300px;
+  min-width: 42px;
+  color: #1a1a1a;
+}
+
+.Non seulement{
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'WorkSans';
+  margin-right: 120px;
+}
+
+.colonne-profils{
+  display: flex;
+  justify-content: space-evenly;
+}
