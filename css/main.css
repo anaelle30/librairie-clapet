@@ -364,9 +364,10 @@ button {
 .line {
     width: 1200px;
     height: 1px;
-    color: white-two;
+    color: #d9d9d9;
     margin-bottom: 70px;
 }
+
 
 /**
 * news
@@ -540,6 +541,58 @@ button {
   margin-right: 20px;
   text-align: justify;
   justify-content: center; 
+  min-width: 600px;
+  margin-right: 120px;
+}
+
+.Une-nuit-le-jeune-M{
+  font-size: 25px; 
+  margin-bottom: 28px;
+}
+
+.Il-fait-une-dcouver{
+  margin-top: 28px;
+  font-size: 20px;
+  font-family: 'WorSans';
+  color :#1a1a1a;
+  margin-bottom: 50px;
+  font-weight: 
+}
+
+.Jim-Lynch-est-un-im{
+  margin-top: 50px;
+  font-size: 24px;
+  color: #e8a27d;
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-weight: 200px;
+}
+
+.Christine-Ferniot{
+  font-family: WorkSans;
+  font-size: 16px;
+  margin-top: 0px;
+  text-align: right;
+}
+
+.Une-histoire-poigna{
+font-size: 24px;
+font-family: WorkSans;
+font-weight: 300px;
+color: #d9926c;
+}
+
+.Entertainment-Weekly{
+margin-bottom: 50px;
+text-align: right;
+font-family: WorkSans;
+font-size: 19px;
+}
+
+.Jim-Lynch-est-n-en{
+  font-family: WorkSans;
+  font-size: 20px;
+  margin-top: 50px;
 }
 
 .texte{
