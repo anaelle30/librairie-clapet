@@ -608,7 +608,7 @@ font-size: 19px;
 }
 
 .page-single__title-actualite{
-  margin-left: 50px;
+  margin-left: 120px;
   margin-bottom: 0px;
   font-size: 56px;
   line-height: 1.4;
@@ -618,8 +618,12 @@ font-size: 19px;
   color: #1a1a1a;
 }
 
+.page-single__subtitle{
+  margin-left: 120px;
+}
+
 .colonne-image-actualite{
-  margin-left: 50px;
+  margin-left: 120px;
   min-width: 280px;
   margin-right: 40px;
 }
@@ -660,24 +664,31 @@ font-size: 19px;
 
 .image-profil-1{
   min-width: 280px;
-  height: 844px;
   margin-bottom: 50px;
+  margin-left: 40px;
   margin-right: 120px;
-  object-fit: contain;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 .texte-profil-1{
-
+  margin-left: 120px;
 }
 
 .image-profil-2{
-
+  min-width: 280px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  margin-right: 40px;
 }
+h3 {
+  font-family: Montserrat;
+}
+
 
 .texte-profil-2{
-
-
-}
+  margin-right: 120px;
+  margin-left: 20px;
+  color: #1a1a1a;
+  text-align: justify;
+  }
 
 /**
 * -----------
